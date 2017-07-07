@@ -1,6 +1,6 @@
 {
   "name": "react-datetime-slider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ReactDatetimeSlider",
   "main": "lib/ReactDatetimeSlider.js",
   "author": "Vanik Gevorgyan",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
-    "cssify": "^1.0.3",
+    "browserify-css": "^0.11.0",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "gulp": "^3.9.0",
@@ -34,10 +34,7 @@
     "react": "^0.14.0"
   },
   "browserify-shim": {
-    "react": "global:React",
-    "transform": [
-      "cssify"
-    ]
+    "react": "global:React"
   },
   "scripts": {
     "build": "gulp clean && NODE_ENV=production gulp build",

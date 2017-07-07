@@ -7,9 +7,9 @@ import PlayIcon from 'material-ui/svg-icons/av/play-arrow';
 import StopIcon from 'material-ui/svg-icons/av/stop';
 import moment from 'moment';
 
-import './ReactDatetimeSlider.css';
-import 'rc-slider/assets/index.css';
-import 'rc-tooltip/assets/bootstrap.css';
+// import './ReactDatetimeSlider.css';
+// import 'rc-slider/assets/index.css';
+// import 'rc-tooltip/assets/bootstrap.css';
 
 // eslint-disable-next-line
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
