@@ -1,0 +1,56 @@
+{
+  "name": "react-datetime-slider",
+  "version": "0.0.1",
+  "description": "ReactDatetimeSlider",
+  "main": "lib/ReactDatetimeSlider.js",
+  "author": "Vanik Gevorgyan",
+  "homepage": "https://github.com/avata-intelligence/react-datetime-slider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avata-intelligence/react-datetime-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avata-intelligence/react-datetime-slider/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "material-ui": "^0.18.6",
+    "moment": "^2.18.1",
+    "rc-slider": "^8.2.0",
+    "rc-tooltip": "^3.4.6",
+    "react": "^0.14.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "cssify": "^1.0.3",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1",
+    "gulp": "^3.9.0",
+    "react": "^0.14.0",
+    "react-component-gulp-tasks": "^0.7.6",
+    "react-dom": "^0.14.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "browserify-shim": {
+    "react": "global:React",
+    "transform": [
+      "cssify"
+    ]
+  },
+  "scripts": {
+    "build": "gulp clean && NODE_ENV=production gulp build",
+    "examples": "gulp dev:server",
+    "lint": "eslint ./; true",
+    "publish:site": "NODE_ENV=production gulp publish:examples",
+    "release": "NODE_ENV=production gulp release",
+    "start": "gulp dev",
+    "test": "echo \"no tests yet\" && exit 0",
+    "watch": "gulp watch:lib"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}

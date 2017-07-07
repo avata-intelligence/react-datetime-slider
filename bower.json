@@ -1,0 +1,29 @@
+{
+  "name": "react-datetime-slider",
+  "version": "0.0.0",
+  "description": "ReactDatetimeSlider",
+  "main": "dist/react-datetime-slider.min.js",
+  "homepage": "https://github.com/avata-intelligence/react-datetime-slider",
+  "authors": [
+    "Vanik Gevorgyan"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
