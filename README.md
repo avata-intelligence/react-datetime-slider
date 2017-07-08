@@ -25,11 +25,14 @@ import 'rc-tooltip/assets/bootstrap.css';
 
 ## Properties
 
-| prop     | Type                    | Required |   |   |
-|----------|-------------------------|----------|---|---|
-| min      | Number (unix timestamp) | y        |   |   |
-| max      | Number (unix timestamp) | y        |   |   |
-| onChange | (timestamp) => Number   | n        |   |   |
+| prop           | Type                    | Required | Default             |
+|----------------|-------------------------|----------|---------------------|
+| min            | Number (unix timestamp) | y        |                     |
+| max            | Number (unix timestamp) | y        |                     |
+| onChange       | (timestamp) => Number   | n        |                     |
+| interval       | Number (milliseconds)   | n        | 1000                |
+| initRealtime   | Boolean                 | n        | true                |
+| datetimeFormat | string                  | n        | MM/DD/YY h:mm:ss a' |
 
 ## Example
 
