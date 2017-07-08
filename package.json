@@ -1,6 +1,6 @@
 {
   "name": "react-datetime-slider",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ReactDatetimeSlider",
   "main": "lib/ReactDatetimeSlider.js",
   "author": "Vanik Gevorgyan",
