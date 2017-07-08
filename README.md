@@ -29,10 +29,10 @@ import 'rc-tooltip/assets/bootstrap.css';
 |----------------|-------------------------|----------|---------------------|
 | min            | Number (unix timestamp) | y        |                     |
 | max            | Number (unix timestamp) | y        |                     |
-| onChange       | (timestamp) => Number   | n        |                     |
+| onChange       | (timestamp) => Number   | y        |                     |
 | interval       | Number (milliseconds)   | n        | 1000                |
 | initRealtime   | Boolean                 | n        | true                |
-| datetimeFormat | string                  | n        | MM/DD/YY h:mm:ss a  |
+| datetimeFormat | String                  | n        | MM/DD/YY h:mm:ss a  |
 
 ## Example
 
@@ -42,6 +42,5 @@ import 'rc-tooltip/assets/bootstrap.css';
   max={moment().valueOf()}
   onChange={console.log}
 />
-
 ```
-*** Note Most [rc-slider](https://www.npmjs.com/package/rc-slider) props will apply to DatetimeSlider also, such as steps, dots etc.
+*** Note: Most [rc-slider](https://www.npmjs.com/package/rc-slider) props will apply to DatetimeSlider also, such as steps, dots etc.

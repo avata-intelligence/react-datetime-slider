@@ -18,7 +18,8 @@
     "moment": "^2.18.1",
     "rc-slider": "^8.2.0",
     "rc-tooltip": "^3.4.6",
-    "react": "^0.14.9"
+    "react": "^0.14.9",
+    "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
