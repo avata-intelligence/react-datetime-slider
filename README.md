@@ -32,7 +32,7 @@ import 'rc-tooltip/assets/bootstrap.css';
 | onChange       | (timestamp) => Number   | n        |                     |
 | interval       | Number (milliseconds)   | n        | 1000                |
 | initRealtime   | Boolean                 | n        | true                |
-| datetimeFormat | string                  | n        | MM/DD/YY h:mm:ss a' |
+| datetimeFormat | string                  | n        | MM/DD/YY h:mm:ss a  |
 
 ## Example
 
