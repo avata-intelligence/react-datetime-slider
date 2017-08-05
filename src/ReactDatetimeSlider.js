@@ -89,6 +89,10 @@ class ReactDatetimeSlider extends Component {
     });
   }
 
+  componentWillUnmount() {
+    window.clearInterval(this.ticker);
+  }
+
   onChange(value) {
     this.onStopTicker();
     this.setState({ value }, this.emitValue);
